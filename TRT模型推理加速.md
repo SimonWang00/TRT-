@@ -1,7 +1,8 @@
 # TRT模型推理加速：
 - 简介：在tensorflow2.0上使用tensorrt6加速
 - 工作流程：
-![]TRT.png)
+
+![工作流程](TRT.png)
 
 ## 运行环境准备
 - OS：Ubuntu18.0.4 LST
