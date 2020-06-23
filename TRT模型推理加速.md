@@ -15,10 +15,9 @@
 - 下载安装TensorRT 6.0
 
 ### 保存模型
-- save_models:
+- save_models形式
 
 ### 转换成tensorrt图
-    python
 	from tensorflow.python.compiler.tensorrt import trt_convert as trt
 	params=trt.DEFAULT_TRT_CONVERSION_PARAMS
 	params._replace(precision_mode=trt.TrtPrecisionMode.FP32)
@@ -27,7 +26,7 @@
 	converter.save('trt_savedmodel')
 
 ### 优化并推理
-    import tensorflow as tf
+        import tensorflow as tf
 	from tensorflow.python.compiler.tensorrt import trt_convert as trt
 	from tensorflow.keras.datasets import mnist
 	import time
